@@ -1,6 +1,5 @@
 
 # ggplot theme for publication ready Plots
-Koundinya Desiraju  
  
 A ggplot theme which creates clean and simple graphics for plotting.
 
