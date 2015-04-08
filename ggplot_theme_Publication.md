@@ -1,8 +1,6 @@
-
 # ggplot theme for publication ready Plots
 Koundinya Desiraju  
  
-A ggplot theme which creates clean and simple graphics for plotting.
 
 ggplot2 by [Hadley](https://github.com/hadley) is a very good package for data visualization in R. However the default plots made by the package requires some formatting before we can send them for publication. The package called [ggthemes](https://github.com/jrnold/ggthemes) was written by [Jeffrey](https://github.com/jrnold) for this purpose and provides some excellent themes. But I want to try myself and improvise on the this. So, I have written my own theme (ofcourse with the help of in-built functions from ggthemes thanks to Jeffrey). My main problems with the aesthetics of default ggplot are
 
@@ -81,3 +79,4 @@ P +scale_colour_Publication()+ theme_Publication()
 ```
 
 ![](https://github.com/koundy/ggplot_theme_Publication/blob/master/ggplot_theme_Publication_files/figure-html/unnamed-chunk-3-2.png) 
+
