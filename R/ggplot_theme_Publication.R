@@ -1,6 +1,6 @@
 
 
-theme_Publication <- function(base_size=14, base_family="helvetica") {
+theme_Publication <- function(base_size=14, base_family="sans") {
       library(grid)
       library(ggthemes)
       (theme_foundation(base_size=base_size, base_family=base_family)
@@ -14,7 +14,8 @@ theme_Publication <- function(base_size=14, base_family="helvetica") {
                axis.title.y = element_text(angle=90,vjust =2),
                axis.title.x = element_text(vjust = -0.2),
                axis.text = element_text(), 
-               axis.line = element_line(colour="black"),
+               axis.line.x = element_line(colour="black"),
+               axis.line.y = element_line(colour="black"),
                axis.ticks = element_line(),
                panel.grid.major = element_line(colour="#f0f0f0"),
                panel.grid.minor = element_blank(),
